@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind Css Link Start -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Css Link End -->
+
+    <!-- Google Font Link Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Google Font Link End -->
+
+    <!-- Font Class Start -->
+    <style>
+        body {
+            font-family: 'Work Sans', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <!-- Font Class End -->
+
+    <title>Ai Universe</title>
+</head>
+
+<body>
+    <header class="text-center font-semibold">
+        <h1 class="text-5xl text-[#111]">AI Universe Hub</h1>
+        <button class="text-white text-xl bg-[#EB5757] rounded-2xl px-7 py-6">Sort By Date</button>
+    </header>
+    <main class="max-w-screen-xl mx-auto">
+        <section>
+            <!-- All Ai Bots  -->
+            <div class="grid grid-cols-3 gap-x-5">
+                <div class="p-6 rounded-2xl border">
+                    <div>
+                        <img src="img/firstAi.png" alt="">
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-2xl font-semibold text-black">Features</h3>
+                        <ol class="text-base font-normal pl-5 text-[#585858] list-decimal space-y-2">
+                            <li>Natural language processing</li>
+                            <li>Contextual understanding</li>
+                            <li>Text generation</li>
+                        </ol>
+                        <hr>
+                        <div class="flex justify-between items-center">
+                            <div class="space-y-4">
+                                <h3 class="text-2xl font-semibold text-black">ChatGPT</h3>
+                                <p class="flex items-center gap-x-2">
+                                    <img src="img/Frame.png" alt="">
+                                    <span class="text-base font-medium text-[#585858]">11/01/2022</span>
+                                </p>
+                            </div>
+                            <div>
+                                <button class="p-3 rounded-full bg-[rgba(254,247,247,1)]"><img src="img/arrow.png" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

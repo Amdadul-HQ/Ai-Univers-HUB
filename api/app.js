@@ -93,7 +93,7 @@ const showDeitls = async (id) => {
         <div class="border rounded-2xl p-6 h-[510px]">
             <div class="relative">
             <img class="rounded-2xl border h-[340px] w-full" src="${data.data.image_link[0]}"/>
-            <p class="px-4 py-2 text-white bg-[#EB5757] rounded-lg absolute top-0 right-0 mt-3 mr-3">${(data.data.accuracy?.score)*100}% accuracy</p>
+            <p class="px-3 py-2 text-white bg-[#EB5757] rounded-lg absolute top-0 right-0 mt-2 mr-2">${(data.data?.accuracy?.score)*100}% accuracy</p>
             </div>
             <h3 class="text-black font-semibold text-2xl text-center my-4">${data.data.input_output_examples[0].input}</h3>
             <p class="text-[#585858] font-normal text-base text-center">${data.data.input_output_examples[0].output}</p>
